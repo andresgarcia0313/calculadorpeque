@@ -1,0 +1,8 @@
+build==1.2.1
+click==8.1.7
+packaging==24.1
+pip-tools==7.4.1
+pyproject_hooks==1.1.0
+setuptools==70.3.0
+tk==0.1.0
+wheel==0.43.0
