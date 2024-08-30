@@ -1,25 +1,30 @@
-# Crear y activar el entorno virtual
+# Calculadora
+
+Calculadora simple en python para ventanas con librerias de còdigo tk para funcionar en windows mac y linux y web
+
+## Crear y activar el entorno virtual
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# Instalar paquetes y agregarlos a requirements.txt:
+
+## Instalar paquetes y agregarlos a requirements.txt:
 ```bash
 pip install pip-tools
 cd software
 pip freeze > requirements.txt
 ```
 
-# Instalar los paquetes de requirements.txt
+## Instalar los paquetes de requirements.txt
 ```bash
 source venv/bin/activate
 cd software
 pip install -r requirements.txt
 ```
 
-# Ejecutar el proyecto
+## Ejecutar el proyecto
 ```bash
 python -m software.src.main
 ```
